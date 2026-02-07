@@ -3,6 +3,11 @@
 
 An automated resume classification system built using NLP and Machine Learning to categorize resumes into predefined job roles, reducing manual screening effort.
 
+🌐 Live Application
+
+🔗 Live Demo:
+https://resumeclassification-hwu8zkd9yn5cy5pmusqht3.streamlit.app/
+
 🛠️ Tech Stack
 
 Python
@@ -11,36 +16,36 @@ Pandas, NumPy
 
 Scikit-learn
 
-NLTK / spaCy
+NLP (NLTK / spaCy)
 
 TF-IDF Vectorization
 
+Streamlit (Deployment)
+
 ⚙️ Approach
 
-Cleaned and preprocessed resume text
+Extracted and cleaned resume text
 
-Extracted features using TF-IDF
+Converted text into numerical features using TF-IDF
 
-Trained models such as Logistic Regression, Naive Bayes, and SVM
+Trained multiple ML models (Logistic Regression, Naive Bayes, SVM, etc.)
 
-Evaluated performance using accuracy and classification metrics
-
-📊 Results
-
-Achieved effective classification across multiple job categories
-
-Traditional ML models performed well on textual data
+Compared models using accuracy and F1-score
 
 🚀 Key Features
 
-End-to-end NLP pipeline
+Upload resume or paste text
 
-Handles unstructured resume data
+Predicts suitable job role
 
-Suitable for recruitment automation
+Displays confidence score
+
+Real-time classification via web app
 
 🔮 Future Work
 
-Deploy using Flask / Streamlit
+Integrate BERT / Deep Learning models
 
-Explore BERT / deep learning models
+Resume ranking system
+
+ATS integration
